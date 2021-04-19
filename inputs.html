@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8>
+        <title>Formulär</title>
+    </head>
+    <body>
+        <h1>Välkommen till Formuläret!</h1>
+        <h3>Ställ din fråga här!</h3>
+
+        <form action="mailto:jan.emil.falk@telia.com" method="POST" enctype="text/plain">
+            <label>Namn:</label>
+            <input type="text" name="Namn" id="">
+            <br>
+            <label>E-post:</label>
+            <input type="email" name="E-post" id="">
+            
+            <br>
+     
+            <label>Datum din fråga uppstod:</label>
+            <input type="date" name="Datum" id="">
+            <br>
+     
+            <label>Hur stort problem anser du att din fråga är?</label>
+            <input type="range" name="Hur stort är problemet?" id="">
+            <br>
+   
+            <label>Ställ din fråga:</label> <br>
+            <textarea name="Din fråga" rows="10" cols="30"></textarea>
+            <input type="reset">
+            <br>
+  
+            <label>Lägg till en fil:</label>
+            <input type="file" name="Fil som angets" id="">
+            <br>
+      
+            <label>Jag godkänner mina uppgifter enligt GDPR</label>
+            <input type="checkbox" name="Godkännande av GDPR" id="">
+            <br>
+      
+            <label for=""></label>
+            <input type="submit">
+        </form>  
+    </body>
+</html>
